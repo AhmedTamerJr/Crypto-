@@ -7,15 +7,16 @@ import {getFirestore} from "firebase/firestore"
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAcA6tYfoZKvkzuvOSbjPoDRlutYnTdo-E",
-  authDomain: "crypto-ac94d.firebaseapp.com",
-  projectId: "crypto-ac94d",
-  storageBucket: "crypto-ac94d.appspot.com",
-  messagingSenderId: "240747403063",
-  appId: "1:240747403063:web:2ab15233b2a2487035ecb2"
+  apiKey: "AIzaSyA3-10PMzXo0NTgxeCUFy5KTYSfxH8RB6g",
+  authDomain: "crypto-ee282.firebaseapp.com",
+  projectId: "crypto-ee282",
+  storageBucket: "crypto-ee282.appspot.com",
+  messagingSenderId: "976323386150",
+  appId: "1:976323386150:web:02f13124b9bda19e897fe7"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const auth =getAuth(app)
 export const db=getFirestore(app)
+export default app
